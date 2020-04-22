@@ -29,6 +29,36 @@
       "nombre": "Jabon",
       "precio": 50,
       "id": 6
+    },
+    {
+      "nombre": "aaaaa",
+      "precio": 33,
+      "id": 7
+    },
+    {
+      "nombre": "re",
+      "precio": 34,
+      "id": 8
+    },
+    {
+      "nombre": "Jugo de piña ",
+      "precio": 100,
+      "id": 9
+    },
+    {
+      "nombre": "efs",
+      "precio": 232,
+      "id": 10
+    },
+    {
+      "nombre": "crema",
+      "precio": 250,
+      "id": 11
+    },
+    {
+      "nombre": "Tostadas",
+      "precio": 45,
+      "id": 12
     }
   ]
 }
