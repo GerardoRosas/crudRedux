@@ -13,19 +13,25 @@ const NuevoProducto = () => {
     //utilizar useDispatch
     const dispatch = useDispatch();
 
-    //Mandar llamr el action de productoAction
-    const agregarProducto = () => dispatch( crearNuevoProductoAction() )
+    //Mandar llamar el action de productoAction
+    const agregarProducto = producto => dispatch( crearNuevoProductoAction(producto) )
 
     //CUando el usuario haga submit
     const submitNuevoProducto = e =>{
         e.preventDefault();
 
         //Validar formulario
+        if(nombre.trim() === '' || precio <= 0){
+            return;
+        }
 
-        //sia no hay erores
+        //si no hay erores
 
         //crear el nuevo producto
-        agregarProducto();
+        agregarProducto({
+            nombre, 
+            precio
+        });
     }
 
     return ( 
@@ -60,7 +66,7 @@ const NuevoProducto = () => {
                                     placeholder="Precio del Producto"
                                     name="precio"
                                     value={precio}
-                                    onChange={e => guardarPrecio(e.target.value)}
+                                    onChange={e => guardarPrecio(Number(e.target.value))}
                                 ></input>
                             </div>
 
