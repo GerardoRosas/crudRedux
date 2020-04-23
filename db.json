@@ -1,64 +1,14 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
+      "nombre": "1kg. Manzana",
+      "precio": "150",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
-    },
-    {
-      "nombre": "Jugo de Naranja",
-      "precio": "300",
-      "id": 3
-    },
-    {
-      "nombre": "Rib Eye 800g",
-      "precio": "200",
-      "id": 4
-    },
-    {
-      "nombre": "Jugo de Fresa",
-      "precio": "200",
-      "id": 5
-    },
-    {
-      "nombre": "Jabon",
-      "precio": 50,
-      "id": 6
-    },
-    {
-      "nombre": "aaaaa",
-      "precio": 33,
-      "id": 7
-    },
-    {
-      "nombre": "re",
-      "precio": 34,
-      "id": 8
-    },
-    {
-      "nombre": "Jugo de piña ",
-      "precio": 100,
-      "id": 9
-    },
-    {
-      "nombre": "efs",
-      "precio": 232,
-      "id": 10
-    },
-    {
-      "nombre": "crema",
-      "precio": 250,
-      "id": 11
-    },
-    {
-      "nombre": "Tostadas",
-      "precio": 45,
-      "id": 12
+      "nombre": "iPad ",
+      "precio": "3000",
+      "id": 2
     }
   ]
 }
