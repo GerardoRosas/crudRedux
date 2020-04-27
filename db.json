@@ -1,14 +1,9 @@
 {
   "productos": [
     {
-      "nombre": "1kg. Manzana",
-      "precio": "150",
+      "nombre": "Carne de Res",
+      "precio": 100,
       "id": 1
-    },
-    {
-      "nombre": "iPad ",
-      "precio": "3000",
-      "id": 2
     }
   ]
 }
